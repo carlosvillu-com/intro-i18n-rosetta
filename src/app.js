@@ -10,7 +10,7 @@ import Polyglot from '@schibstedspain/rosetta/lib/adapters/polyglot';
 
 const languages = {
   'es-ES': {
-    'hello world': 'Hola Mundo',
+    'hello world': 'Hola mundo',
     'spanish': 'Español',
     'catalan': 'Catalá',
     'english': 'English',
@@ -24,7 +24,7 @@ const languages = {
     'review the console': 'Obre la consola' 
   },
   'en-GB': {
-    'hello world': 'Hello World',
+    'hello world': 'Hello world',
     'spanish': 'Español',
     'catalan': 'Catalá',
     'english': 'English',
@@ -36,7 +36,7 @@ const i18n = new Rosetta();
 i18n.adapter = new Polyglot();
 i18n.setTranslationsSilent(languages['en-GB']);
 
-i18n.on(CHANGE_TRANSLATION_EVENT, (dicc) => console.log('The dicctionary has been changed to', dicc));
+i18n.on(CHANGE_TRANSLATION_EVENT, (dic) => console.log('The dictionary has been changed to', dic));
 
 @rosetta(i18n, languages)
 class App extends Component {
