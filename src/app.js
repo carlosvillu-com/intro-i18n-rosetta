@@ -17,7 +17,7 @@ const languages = {
     'review the console': 'Abre la consola' 
   },
   'ca-ES': {
-    'hello world': 'Hola mon',
+    'hello world': 'Hola món',
     'spanish': 'Español',
     'catalan': 'Catalá',
     'english': 'English',
