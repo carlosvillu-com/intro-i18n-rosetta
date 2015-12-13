@@ -53,6 +53,7 @@ class App extends Component {
     return (
       <div>
         <Header literal={this.i18n.t('hello world')}/>
+        <Header literal={this.i18n.t('hello world')}/>
         <Button handleClick={this.changeLanguage.bind(this)} isoCode='es-ES' label={this.i18n.t('spanish')}/>
         <Button handleClick={this.changeLanguage.bind(this)} isoCode='ca-ES' label={this.i18n.t('catalan')}/>
         <Button handleClick={this.changeLanguage.bind(this)} isoCode='en-GB' label={this.i18n.t('english')}/>
