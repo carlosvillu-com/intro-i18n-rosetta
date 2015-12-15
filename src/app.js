@@ -12,21 +12,21 @@ const languages = {
   'es-ES': {
     'hello world': 'Hola mundo',
     'spanish': 'Español',
-    'catalan': 'Catalá',
+    'catalan': 'Català',
     'english': 'English',
     'review the console': 'Abre la consola' 
   },
   'ca-ES': {
     'hello world': 'Hola món',
     'spanish': 'Español',
-    'catalan': 'Catalá',
+    'catalan': 'Català',
     'english': 'English',
     'review the console': 'Obre la consola' 
   },
   'en-GB': {
     'hello world': 'Hello world',
     'spanish': 'Español',
-    'catalan': 'Catalá',
+    'catalan': 'Català',
     'english': 'English',
     'review the console': 'Open the console'
   }
